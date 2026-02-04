@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1764655550235,
+  "lastUpdate": 1770169822597,
   "repoUrl": "https://github.com/JoshOsullivan-au/n8n-mcp",
   "entries": {
     "n8n-mcp Benchmarks": [
@@ -54,6 +54,37 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/JoshOsullivan-au/n8n-mcp/commit/ef9b6f634145fcb9434894c78ae7e082b9a88581"
         },
         "date": 1764655549977,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "sample - array sorting - small",
+            "value": 0.0136,
+            "range": "0.3096",
+            "unit": "ms",
+            "extra": "73341 ops/sec"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "mail@joshosullivan.ai",
+            "name": "Josh O'Sullivan",
+            "username": "JoshOsullivan-au"
+          },
+          "committer": {
+            "email": "mail@joshosullivan.ai",
+            "name": "Josh O'Sullivan",
+            "username": "JoshOsullivan-au"
+          },
+          "distinct": true,
+          "id": "cf13c456bbfea277caa3a25b7142d112671d2c68",
+          "message": "ci: add Gitleaks secret scanning workflow",
+          "timestamp": "2026-02-04T12:48:25+11:00",
+          "tree_id": "85c46de88cba046fbcbc4256535c4769b819407b",
+          "url": "https://github.com/JoshOsullivan-au/n8n-mcp/commit/cf13c456bbfea277caa3a25b7142d112671d2c68"
+        },
+        "date": 1770169822336,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
